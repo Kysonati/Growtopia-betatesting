@@ -1,9 +1,9 @@
-<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="growtopiabeta.ga" resolutions="1x" timestamp="1612524517120">
+<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="growtopiabeta.ga" resolutions="1x" timestamp="1612525468843">
   <folder name="css">
     <file name="site_global.css" crc="4233986782"/>
     <file name="master_a-master.css" crc="3794564162" ref="index:beta-testing-registration"/>
-    <file name="index.css" crc="3828407516" ref="index"/>
-    <file name="beta-testing-registration.css" crc="4034093710" ref="beta-testing-registration"/>
+    <file name="index.css" crc="27130032" ref="index"/>
+    <file name="beta-testing-registration.css" crc="4145828636" ref="beta-testing-registration"/>
   </folder>
   <folder name="fonts">
     <file name="subset-centurygothic.woff" crc="393072551"/>
@@ -62,8 +62,8 @@
     <file name="prusaitis.gif" crc="691575" ref="index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="home-favicon.ico" crc="4106660529" ref="index"/>
+    <file name="home-favicon.ico" crc="4166619206" ref="index"/>
   </folder>
-  <file name="index.html" crc="59393532" seo="true" mt="1612524474646" redirect="true"/>
-  <file name="beta-testing-registration.html" crc="4125761025" seo="true" mt="1612524113375" redirect="true"/>
+  <file name="index.html" crc="379509288" seo="true" mt="1612525449528" redirect="true"/>
+  <file name="beta-testing-registration.html" crc="61799943" seo="true" mt="1612525327967" redirect="true"/>
 </manifest>
