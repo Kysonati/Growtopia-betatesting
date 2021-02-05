@@ -1,4 +1,4 @@
-<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="growtopiabeta.ga" resolutions="1x" timestamp="1612524162730">
+<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="growtopiabeta.ga" resolutions="1x" timestamp="1612524517120">
   <folder name="css">
     <file name="site_global.css" crc="4233986782"/>
     <file name="master_a-master.css" crc="3794564162" ref="index:beta-testing-registration"/>
@@ -62,7 +62,8 @@
     <file name="prusaitis.gif" crc="691575" ref="index">
       <caption webpage="index" alt=""/>
     </file>
+    <file name="home-favicon.ico" crc="4106660529" ref="index"/>
   </folder>
-  <file name="index.html" crc="401565580" seo="true" mt="1612524146331" redirect="true"/>
+  <file name="index.html" crc="59393532" seo="true" mt="1612524474646" redirect="true"/>
   <file name="beta-testing-registration.html" crc="4125761025" seo="true" mt="1612524113375" redirect="true"/>
 </manifest>
