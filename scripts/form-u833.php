@@ -30,6 +30,9 @@ $form = array(
 		'from' => 'kysonati@gmail.com',
 		'to' => 'kysonati@gmail.com'
 	),
+	'recaptcha2' => array(
+		'private_key' => '6LdPI0saAAAAADMzd6C0KiAkpz-BgykTLRQE6DOQ'
+	),
 	'fields' => array(
 		'custom_U835' => array(
 			'order' => 1,
@@ -65,6 +68,16 @@ $form = array(
 			'required' => true,
 			'errors' => array(
 				'required' => 'Field \'Custom\' is required.'
+			)
+		),
+		'g-recaptcha-response' => array(
+			'order' => 5,
+			'type' => 'recaptcha2',
+			'label' => 'Image Verification',
+			'required' => true,
+			'errors' => array(
+				'required' => 'Field \'Image Verification\' is required.',
+				'format' => 'Incorrect reCAPTCHA 2.0 value.'
 			)
 		)
 	)

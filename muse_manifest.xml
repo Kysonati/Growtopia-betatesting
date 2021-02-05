@@ -1,9 +1,9 @@
-<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="growtopiabeta.ga" resolutions="1x" timestamp="1612521571563">
+<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="growtopiabeta.ga" resolutions="1x" timestamp="1612523690812">
   <folder name="css">
     <file name="site_global.css" crc="461355152"/>
     <file name="master_a-master.css" crc="415682635" ref="index:beta-testing-registration"/>
-    <file name="index.css" crc="4041564282" ref="index"/>
-    <file name="beta-testing-registration.css" crc="378231491" ref="beta-testing-registration"/>
+    <file name="index.css" crc="3806782244" ref="index"/>
+    <file name="beta-testing-registration.css" crc="4208166340" ref="beta-testing-registration"/>
   </folder>
   <folder name="fonts">
     <file name="subset-centurygothic.woff" crc="393072551"/>
@@ -32,10 +32,9 @@
     <file name="require.js" crc="4177726516" ref="index:beta-testing-registration"/>
     <file name="jquery.musemenu.js" crc="4139692962" ref="beta-testing-registration"/>
     <file name="webpro.js" crc="3856315280" ref="beta-testing-registration"/>
-    <file name="form_check.php" crc="4108222811" ref="beta-testing-registration"/>
-    <file name="form_throttle.php" crc="503802655" ref="beta-testing-registration"/>
-    <file name="form_process.php" crc="260214869" ref="beta-testing-registration"/>
-    <file name="form-u833.php" crc="4187650195" ref="beta-testing-registration"/>
+    <file name="form_check.php" crc="4050423521" ref="beta-testing-registration"/>
+    <file name="form_process.php" crc="3946589668" ref="beta-testing-registration"/>
+    <file name="form-u833.php" crc="4121964105" ref="beta-testing-registration"/>
     <file name="html5shiv.js" crc="4241844378" ref="beta-testing-registration"/>
   </folder>
   <folder name="images">
@@ -60,7 +59,10 @@
       <caption webpage="beta-testing-registration" alt=""/>
     </file>
     <file name="grow_dude_sign-u647-fr.png" crc="3758214621" ref="beta-testing-registration"/>
+    <file name="prusaitis.jpg" crc="313293571" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
   </folder>
-  <file name="index.html" crc="89314788" seo="true" mt="1612520750048" redirect="true"/>
-  <file name="beta-testing-registration.html" crc="425406627" seo="true" mt="1612521107870" redirect="true"/>
+  <file name="index.html" crc="4031054798" seo="true" mt="1612523683647" redirect="true"/>
+  <file name="beta-testing-registration.html" crc="48127361" seo="true" mt="1612522809610" redirect="true"/>
 </manifest>
