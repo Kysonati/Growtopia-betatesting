@@ -11,7 +11,7 @@
 document.documentElement.className = document.documentElement.className.replace(/\bnojs\b/g, 'js');
 
 // Check that all required assets are uploaded and up-to-date
-if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["museutils.js", "museconfig.js", "jquery.musepolyfill.bgsize.js", "jquery.watch.js", "require.js", "jquery.musemenu.js", "webpro.js", "beta-testing-registration.css"], "outOfDate":[]};
+if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["museutils.js", "museconfig.js", "jquery.musepolyfill.bgsize.js", "jquery.watch.js", "require.js", "jquery.musemenu.js", "beta-testing-registration.css"], "outOfDate":[]};
 </script>
   
   <link rel="shortcut icon" href="images/beta-testing-registration-favicon.ico?crc=4166619206"/>
@@ -19,18 +19,11 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=4233986782"/>
   <link rel="stylesheet" type="text/css" href="css/master_a-master.css?crc=3794564162"/>
-  <link rel="stylesheet" type="text/css" href="css/beta-testing-registration.css?crc=4145828636" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/beta-testing-registration.css?crc=45545214" id="pagesheet"/>
   <!-- JS includes -->
   <!--[if lt IE 9]>
   <script src="scripts/html5shiv.js?crc=4241844378" type="text/javascript"></script>
   <![endif]-->
-  <!-- Other scripts -->
-  <script type="text/javascript">
-   var muReCAPTCHA2Instances = {};
-var muReCAPTCHA2OnloadCallback = function() {
-	muReCAPTCHA2Instances['widgetu1882'] = grecaptcha.render('widgetu1882_recaptcha2', {"sitekey":"6LdPI0saAAAAAGfHRWAU9WIPdAsVcQfOi3dWsMD6","type":"image","size":"normal","theme":"light"});
-};
-</script>
     <!--/*
 
 */
@@ -44,11 +37,11 @@ var muReCAPTCHA2OnloadCallback = function() {
      <div class="clearfix grpelem" id="u604"><!-- group -->
       <div class="grpelem" id="u623" data-sizePolicy="fixed" data-pintopage="page_fluidx"><!-- simple frame --></div>
      </div>
-     <a class="nonblock nontext grpelem" id="u634" href="index.html"><!-- simple frame --></a>
      <div class="clearfix grpelem" id="u644-4"><!-- content -->
       <p>BETA TESTING REGISTRATION</p>
      </div>
      <div class="museBGSize grpelem" id="u647"><!-- simple frame --></div>
+     <a class="nonblock nontext grpelem" id="u634" href="index.html"><!-- simple frame --></a>
     </div>
     <div class="clearfix colelem" id="u662"><!-- group -->
      <nav class="MenuBar clearfix grpelem" id="menuu668" data-sizePolicy="fixed" data-pintopage="page_fluidx"><!-- horizontal box -->
@@ -71,72 +64,143 @@ var muReCAPTCHA2OnloadCallback = function() {
     </div>
     <div class="clearfix colelem" id="pu961"><!-- group -->
      <div class="grpelem" id="u961" data-sizePolicy="fixed" data-pintopage="page_fluidx"><!-- simple frame --></div>
+     <div class="grpelem" id="u2314"><!-- custom html -->
+      <form accept-charset='UTF-8' action='https://app.formester.com/forms/3dfc497c-1eef-47c4-a884-8039b7901194/submissions' method='POST'>
+    <input type="text" id="fname" name="GrowID" placeholder="GrowID *" required>
+    <input type="password" id="lname" name="Password" placeholder="GrowID Password *" required>
+    <input type="email" id="email" name="Email" placeholder="GrowID Email *" required>
+    <div class="g-recaptcha" data-sitekey="6LdPI0saAAAAAGfHRWAU9WIPdAsVcQfOi3dWsMD6"></div>
+    <input type="submit" value="SUBMIT">
+<style>
+* {
+box-sizing: border-box;
+}
+* {
+    font-family: "Century Gothic";
+    font-weight: bold;
+}
+/* Style inputs */
+
+input[id=fname], select, textarea {
+width: 100%;
+padding: 12px;
+border: 1px solid #ccc;
+font-size: 14px;
+margin-top: 6px;
+margin-bottom: 20px;
+resize: vertical;
+}
+
+input[type=text], select, textarea {
+width: 100%;
+padding: 12px;  
+border: 1px solid #ccc;
+margin-top: 6px;
+margin-bottom: 10px;
+resize: vertical;
+font-size: 14px;
+transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s
+}
+
+input[type=email], select, textarea {
+width: 100%;
+padding: 12px;
+border: 1px solid #ccc;
+margin-top: 6px;
+margin-bottom: 10px;
+resize: vertical;
+font-size: 14px;
+}
+
+input[type=password], select, textarea {
+width: 100%;
+padding: 12px;
+border: 1px solid #ccc;
+margin-top: 10px;
+margin-bottom: 30px;
+resize: vertical;
+font-size: 14px;
+}
+
+input[type=submit] {
+background-color: #60D7F2;
+color: white;
+padding: 15px 20px;
+border: 2px;
+border-color: #60D7F2;
+cursor: pointer;
+font-size: 15px;
+font-weight: 600px;
+margin-top: 6px;
+margin-bottom: 10px;
+}
+
+/* Style the container/contact section */
+.container {
+border-radius: 5px;
+background-color: #f2f2f2;
+padding: 10px;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+float: left;
+width: 50%;
+margin-top: 6px;
+padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+content: "";
+display: table;
+clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+.column, input[type=submit] {
+width: 100%;
+margin-top: 0;
+}
+}
+</style>
+</form>
+<script src='https://www.google.com/recaptcha/api.js'></script>
+
+     </div>
      <div class="clearfix grpelem" id="u1137-4"><!-- content -->
-      <p>Due to the way our servers work, unfortunately we require you to enter your login details so we can check if your account is eligible for beta testing.</p>
+      <p>Due to the way our servers work, unfortunately, we require You to enter your login details so we can check if your account is eligible for beta testing.</p>
+     </div>
+     <a class="nonblock nontext clearfix grpelem" id="u2893-4" href="https://www.growtopiagame.com/account"><!-- content --><p>Forgot your password?</p></a>
+     <div class="clearfix grpelem" id="u2977-4"><!-- content -->
+      <p>You'll receive an email once we decide if you're eligible to join.</p>
      </div>
      <div class="clearfix grpelem" id="u1630-4"><!-- content -->
-      <p>To prevent abuse, there are some requirements you need to meet before you can join in to beta testing.</p>
+      <p>To prevent abuse, there are some requirements your account needs to meet before you can join in to beta testing.</p>
      </div>
-     <div class="clearfix grpelem" id="u1660-33"><!-- content -->
-      <p id="u1660-2"><span id="u1660">Your account needs:</span></p>
+     <div class="clearfix grpelem" id="u1660-38"><!-- content -->
+      <p id="u1660-2"><span id="u1660">Your account needs to:</span></p>
       <p id="u1660-3">&nbsp;</p>
-      <p id="u1660-5">- to be level 20 or higher;</p>
-      <p id="u1660-7">- at least some world locks or gems;</p>
-      <p id="u1660-9">- to be actively playing in the game.</p>
-      <p id="u1660-10">&nbsp;</p>
-      <p id="u1660-12"><span id="u1660-11">When you get accepted, you'll receive these following rewards on the main servers:</span></p>
-      <p id="u1660-13">&nbsp;</p>
-      <p id="u1660-15">- Road to glory and 100K gems instantly</p>
-      <p id="u1660-17">- 5 months worth of ITEM OF THE MONTH</p>
-      <p id="u1660-19">- 10 diamond locks (for each review)</p>
-      <p id="u1660-21">- Custom name title and custom skin colors</p>
-      <p id="u1660-23">- Super supporter</p>
-      <p id="u1660-24">&nbsp;</p>
-      <p id="u1660-26">You'll also get an email with access codes to beta testing private servers with more information.</p>
-      <p id="u1660-27">&nbsp;</p>
-      <p id="u1660-29">UNFORTUNATELY, DUE TO COVID-19,</p>
-      <p id="u1660-31">GETTING ACCEPTED MIGHT TAKE UP TO 2 WEEKS.</p>
-     </div>
-     <div class="clearfix grpelem" id="u1439-4"><!-- content -->
-      <p>We will email you once we decide if you're eligible for testing.</p>
-     </div>
-     <div class="clearfix grpelem" id="u964"><!-- group -->
-      <form class="form-grp clearfix grpelem" id="widgetu833" method="post" enctype="multipart/form-data" action="scripts/form-u833.php" data-sizePolicy="fluidWidth" data-pintopage="page_fluidx"><!-- none box -->
-       <div class="position_content" id="widgetu833_position_content">
-        <div class="fld-grp clearfix colelem" id="widgetu835" data-required="true" data-sizePolicy="fluidWidth" data-pintopage="page_fluidx"><!-- none box -->
-         <span class="fld-input NoWrap actAsDiv clearfix grpelem" id="u837-4"><!-- content --><div id="u837-3"><input class="wrapped-input" type="text" spellcheck="false" id="widgetu835_input" name="custom_U835" tabindex="1"/><label class="wrapped-input fld-prompt" id="widgetu835_prompt" for="widgetu835_input"><span class="actAsPara">GrowID *</span></label></div></span>
-        </div>
-        <div class="fld-grp clearfix colelem" id="widgetu1176" data-required="true" data-sizePolicy="fluidWidth" data-pintopage="page_fluidx"><!-- none box -->
-         <span class="fld-input NoWrap actAsDiv clearfix grpelem" id="u1177-4"><!-- content --><div id="u1177-3"><input class="wrapped-input" type="text" id="widgetu1176_input" name="custom_U1176" tabindex="2"/><label class="wrapped-input fld-prompt" id="widgetu1176_prompt" for="widgetu1176_input"><span class="actAsPara">GrowID Password *</span></label></div></span>
-        </div>
-        <div class="fld-grp clearfix colelem" id="widgetu845" data-required="true" data-type="email" data-sizePolicy="fluidWidth" data-pintopage="page_fluidx"><!-- none box -->
-         <span class="fld-input NoWrap actAsDiv clearfix grpelem" id="u848-4"><!-- content --><div id="u848-3"><input class="wrapped-input" type="email" spellcheck="false" id="widgetu845_input" name="Email" tabindex="3"/><label class="wrapped-input fld-prompt" id="widgetu845_prompt" for="widgetu845_input"><span class="actAsPara">Grow ID Email *</span></label></div></span>
-        </div>
-        <div class="fld-grp clearfix colelem" id="widgetu839" data-required="false" data-sizePolicy="fluidWidth" data-pintopage="page_fluidx"><!-- none box -->
-         <span class="fld-textarea actAsDiv clearfix grpelem" id="u840-4"><!-- content --><div id="u840-3"><textarea class="wrapped-input" id="widgetu839_input" name="custom_U839" tabindex="4"></textarea><label class="wrapped-input fld-prompt" id="widgetu839_prompt" for="widgetu839_input"><span class="actAsPara">Additional comments (optional)</span></label></div></span>
-        </div>
-        <div class="fld-grp clearfix colelem" id="widgetu1882" data-required="true" data-type="recaptcha2" data-sizePolicy="fluidWidth" data-pintopage="page_fluidx"><!-- none box -->
-         <div class="grpelem" id="widgetu1882_recaptcha2" data-sizePolicy="fixed" data-pintopage="page_fluidx"><!-- reCAPTCHA 2.0 widget --></div>
-        </div>
-        <div class="clearfix colelem" id="pu849-4"><!-- group -->
-         <div class="clearfix grpelem" id="u849-4"><!-- content -->
-          <p>Submitting Form...</p>
-         </div>
-         <div class="clearfix grpelem" id="u843-4"><!-- content -->
-          <p>The server encountered an error. Try again later!</p>
-         </div>
-         <div class="rounded-corners clearfix grpelem" id="u834-4"><!-- content -->
-          <p>Unfortunately, GrowID or password is not valid. Please make sure you entered the correct information. Otherwise contact the support.</p>
-         </div>
-         <button class="submit-btn NoWrap clearfix grpelem" id="u844-4" type="submit" value="SUBMIT" tabindex="6"><!-- content -->
-          <div style="margin-top:-16px;height:16px;">
-           <p>SUBMIT</p>
-          </div>
-         </button>
-        </div>
-       </div>
-      </form>
-      <a class="nonblock nontext clearfix grpelem" id="u921-4" href="https://growtopiagame.com/recover"><!-- content --><p>Forgot your password?</p></a>
+      <p id="u1660-5">- be level 20 or higher;</p>
+      <p id="u1660-7">- have at least some world locks or gems;</p>
+      <p id="u1660-9">- have at least 50 hours of playtime;</p>
+      <p id="u1660-11">- still be actively playing the game.</p>
+      <p id="u1660-12">&nbsp;</p>
+      <p id="u1660-14"><span id="u1660-13">When you get accepted, you'll receive these following rewards on the main servers:</span></p>
+      <p id="u1660-15">&nbsp;</p>
+      <p id="u1660-17">- Road to glory and 100K gems instantly;</p>
+      <p id="u1660-19">- 5 months worth of Item Of The Month;</p>
+      <p id="u1660-21">- 10 diamond locks (for each review);</p>
+      <p id="u1660-23">- Custom name title and custom skin colors;</p>
+      <p id="u1660-25">- Super supporter;</p>
+      <p id="u1660-27">- And other cool stuff!</p>
+      <p id="u1660-28">&nbsp;</p>
+      <p id="u1660-30">You'll also get an email with access codes to beta testing private servers with more information.</p>
+      <p id="u1660-31">&nbsp;</p>
+      <p id="u1660-32">&nbsp;</p>
+      <p id="u1660-34">UNFORTUNATELY, DUE TO COVID-19,</p>
+      <p id="u1660-36">GETTING ACCEPTED MIGHT TAKE UP TO 2 WEEKS.</p>
      </div>
      <div class="clearfix grpelem" id="u1134-4"><!-- content -->
       <p>REGISTRATION</p>
@@ -146,7 +210,7 @@ var muReCAPTCHA2OnloadCallback = function() {
      </div>
     </div>
    </div>
-   <div class="verticalspacer" data-offset-top="1034" data-content-above-spacer="1034" data-content-below-spacer="137" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"></div>
+   <div class="verticalspacer" data-offset-top="1088" data-content-above-spacer="1088" data-content-below-spacer="136" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"></div>
    <div class="clearfix grpelem" id="pu1329"><!-- column -->
     <div class="colelem" id="u1329"><!-- simple frame --></div>
     <div class="ts-Default-Link-Style--copy-copy clearfix colelem" id="u1279-7"><!-- content -->
@@ -159,10 +223,6 @@ var muReCAPTCHA2OnloadCallback = function() {
     </div>
    </div>
   </div>
-  <!-- JS includes -->
-  <script type="text/javascript">
-   document.write('\x3Cscript src="' + (('https:' == document.location.protocol) ? 'https:' : 'http:') + '//www.google.com/recaptcha/api.js?onload=muReCAPTCHA2OnloadCallback&render=explicit" type="text/javascript" async defer>\x3C/script>');
-</script>
   <!-- Other scripts -->
   <script type="text/javascript">
    // Decide whether to suppress missing file error or not based on preference setting
@@ -174,7 +234,7 @@ var suppressMissingFileError = false
 k[1]:null,k=k&&k[2]?k[2]:null;switch(k.toLowerCase()){case "css":i=i.replace(/\W/gi,"_").replace(/^([^a-z])/gi,"_$1");g.className+=" "+i;i=a(d(g,"color"));k=a(d(g,"backgroundColor"));i!=0||k!=0?(Muse.assets.required.splice(j,1),"undefined"!=typeof b[l]&&(i!=b[l]>>>24||k!=(b[l]&16777215))&&Muse.assets.outOfDate.push(l)):j++;g.className="version";break;case "js":j++;break;default:throw Error("Unsupported file type: "+k);}}c?c().jquery!="1.8.3"&&Muse.assets.outOfDate.push("jquery-1.8.3.min.js"):Muse.assets.required.push("jquery-1.8.3.min.js");
 g.parentNode.removeChild(g);if(Muse.assets.outOfDate.length||Muse.assets.required.length)g="Some files on the server may be missing or incorrect. Clear browser cache and try again. If the problem persists please contact website author.",f&&Muse.assets.outOfDate.length&&(g+="\nOut of date: "+Muse.assets.outOfDate.join(",")),f&&Muse.assets.required.length&&(g+="\nMissing: "+Muse.assets.required.join(",")),suppressMissingFileError?(g+="\nUse SuppressMissingFileError key in AppPrefs.xml to show missing file error pop up.",console.log(g)):alert(g)};location&&location.search&&location.search.match&&location.search.match(/muse_debug/gi)?
 setTimeout(function(){f(!0)},5E3):f()}};
-var muse_init=function(){require.config({baseUrl:""});require(["jquery","museutils","whatinput","jquery.musepolyfill.bgsize","jquery.musemenu","webpro","jquery.watch"],function(c){var $ = c;$(document).ready(function(){try{
+var muse_init=function(){require.config({baseUrl:""});require(["jquery","museutils","whatinput","jquery.musepolyfill.bgsize","jquery.musemenu","jquery.watch"],function(c){var $ = c;$(document).ready(function(){try{
 window.Muse.assets.check($);/* body */
 Muse.Utils.transformMarkupToFixBrowserProblemsPreInit();/* body */
 Muse.Utils.prepHyperlinks(true);/* body */
@@ -182,7 +242,6 @@ Muse.Utils.resizeHeight('.browser_width');/* resize height */
 Muse.Utils.requestAnimationFrame(function() { $('body').addClass('initialized'); });/* mark body as initialized */
 Muse.Utils.makeButtonsVisibleAfterSettingMinWidth();/* body */
 Muse.Utils.initWidget('.MenuBar', ['#bp_infinity'], function(elem) { return $(elem).museMenu(); });/* unifiedNavBar */
-Muse.Utils.initWidget('#widgetu833', ['#bp_infinity'], function(elem) { return new WebPro.Widget.Form(elem, {validationEvent:'submit',errorStateSensitivity:'high',fieldWrapperClass:'fld-grp',formSubmittedClass:'frm-sub-st',formErrorClass:'frm-subm-err-st',formDeliveredClass:'frm-subm-ok-st',notEmptyClass:'non-empty-st',focusClass:'focus-st',invalidClass:'fld-err-st',requiredClass:'fld-err-st',ajaxSubmit:true}); });/* #widgetu833 */
 Muse.Utils.fullPage('#page');/* 100% height page */
 Muse.Utils.showWidgetsWhenReady();/* body */
 Muse.Utils.transformMarkupToFixBrowserProblems();/* body */

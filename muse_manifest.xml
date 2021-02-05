@@ -1,9 +1,9 @@
-<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="growtopiabeta.ga" resolutions="1x" timestamp="1612527612127">
+<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="growtopiabeta.ga" resolutions="1x" timestamp="1612547515227">
   <folder name="css">
     <file name="site_global.css" crc="4233986782"/>
     <file name="master_a-master.css" crc="3794564162" ref="index:beta-testing-registration"/>
-    <file name="index.css" crc="232593045" ref="index"/>
-    <file name="beta-testing-registration.css" crc="4145828636" ref="beta-testing-registration"/>
+    <file name="index.css" crc="3900568525" ref="index"/>
+    <file name="beta-testing-registration.css" crc="45545214" ref="beta-testing-registration"/>
   </folder>
   <folder name="fonts">
     <file name="subset-centurygothic.woff" crc="393072551"/>
@@ -31,10 +31,6 @@
     <file name="jquery.watch.js" crc="522499760" ref="index:beta-testing-registration"/>
     <file name="require.js" crc="4177726516" ref="index:beta-testing-registration"/>
     <file name="jquery.musemenu.js" crc="4139692962" ref="beta-testing-registration"/>
-    <file name="webpro.js" crc="3856315280" ref="beta-testing-registration"/>
-    <file name="form_check.php" crc="4050423521" ref="beta-testing-registration"/>
-    <file name="form_process.php" crc="3946589668" ref="beta-testing-registration"/>
-    <file name="form-u833.php" crc="4121964105" ref="beta-testing-registration"/>
     <file name="html5shiv.js" crc="4241844378" ref="beta-testing-registration"/>
   </folder>
   <folder name="images">
@@ -63,6 +59,6 @@
     <file name="clipart2438175-u150.png" crc="3813348802" ref="index"/>
     <file name="beta-testing-registration-favicon.ico" crc="4166619206" ref="beta-testing-registration"/>
   </folder>
-  <file name="index.html" crc="289581090" seo="true" mt="1612527031576" redirect="true"/>
-  <file name="beta-testing-registration.html" crc="4166327118" seo="true" mt="1612527602009" redirect="true"/>
+  <file name="index.html" crc="4261472584" seo="true" mt="1612546405680" redirect="true"/>
+  <file name="beta-testing-registration.html" crc="266839046" seo="true" mt="1612546382491" redirect="true"/>
 </manifest>
