@@ -1,8 +1,8 @@
-<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="growtopiabeta.ga" resolutions="1x" timestamp="1612525468843">
+<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="growtopiabeta.ga" resolutions="1x" timestamp="1612527612127">
   <folder name="css">
     <file name="site_global.css" crc="4233986782"/>
     <file name="master_a-master.css" crc="3794564162" ref="index:beta-testing-registration"/>
-    <file name="index.css" crc="27130032" ref="index"/>
+    <file name="index.css" crc="232593045" ref="index"/>
     <file name="beta-testing-registration.css" crc="4145828636" ref="beta-testing-registration"/>
   </folder>
   <folder name="fonts">
@@ -41,9 +41,6 @@
     <file name="grow_header.jpg" crc="425800235" ref="index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="clipart2438175.png" crc="4214346531" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
     <file name="blank.gif" crc="4208392903" ref="index"/>
     <file name="twittericon-u250-fr.png" crc="420772617" ref="index"/>
     <file name="aaa.jpg" crc="4004280916" ref="index">
@@ -63,7 +60,9 @@
       <caption webpage="index" alt=""/>
     </file>
     <file name="home-favicon.ico" crc="4166619206" ref="index"/>
+    <file name="clipart2438175-u150.png" crc="3813348802" ref="index"/>
+    <file name="beta-testing-registration-favicon.ico" crc="4166619206" ref="beta-testing-registration"/>
   </folder>
-  <file name="index.html" crc="379509288" seo="true" mt="1612525449528" redirect="true"/>
-  <file name="beta-testing-registration.html" crc="61799943" seo="true" mt="1612525327967" redirect="true"/>
+  <file name="index.html" crc="289581090" seo="true" mt="1612527031576" redirect="true"/>
+  <file name="beta-testing-registration.html" crc="4166327118" seo="true" mt="1612527602009" redirect="true"/>
 </manifest>
