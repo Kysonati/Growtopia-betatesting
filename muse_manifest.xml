@@ -1,0 +1,66 @@
+<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="growtopiabeta.ga" resolutions="1x" timestamp="1612521571563">
+  <folder name="css">
+    <file name="site_global.css" crc="461355152"/>
+    <file name="master_a-master.css" crc="415682635" ref="index:beta-testing-registration"/>
+    <file name="index.css" crc="4041564282" ref="index"/>
+    <file name="beta-testing-registration.css" crc="378231491" ref="beta-testing-registration"/>
+  </folder>
+  <folder name="fonts">
+    <file name="subset-centurygothic.woff" crc="393072551"/>
+    <file name="subset-centurygothic.eot" crc="497603699"/>
+    <file name="subset-centurygothic.svg" crc="455417496"/>
+    <file name="subset-centurygothic-bold.woff" crc="68616380"/>
+    <file name="subset-centurygothic-bold.eot" crc="295113714"/>
+    <file name="subset-centurygothic-bold.svg" crc="3864349339"/>
+    <file name="subset-productsans-bold.woff" crc="200116784"/>
+    <file name="subset-productsans-bold.eot" crc="203104350"/>
+    <file name="subset-productsans-bold.svg" crc="3972853911"/>
+    <file name="subset-centurygothic-bolditalic.woff" crc="124973638"/>
+    <file name="subset-centurygothic-bolditalic.eot" crc="4034915602"/>
+    <file name="subset-centurygothic-bolditalic.svg" crc="428732057"/>
+    <file name="subset-centurygothic-italic.woff" crc="246281592"/>
+    <file name="subset-centurygothic-italic.eot" crc="260873543"/>
+    <file name="subset-centurygothic-italic.svg" crc="4137345750"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:beta-testing-registration"/>
+    <file name="museutils.js" crc="3939489907" ref="index:beta-testing-registration"/>
+    <file name="whatinput.js" crc="86476730" ref="index:beta-testing-registration"/>
+    <file name="museconfig.js" crc="3936894949" ref="index:beta-testing-registration"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="85124417" ref="index:beta-testing-registration"/>
+    <file name="jquery.watch.js" crc="522499760" ref="index:beta-testing-registration"/>
+    <file name="require.js" crc="4177726516" ref="index:beta-testing-registration"/>
+    <file name="jquery.musemenu.js" crc="4139692962" ref="beta-testing-registration"/>
+    <file name="webpro.js" crc="3856315280" ref="beta-testing-registration"/>
+    <file name="form_check.php" crc="4108222811" ref="beta-testing-registration"/>
+    <file name="form_throttle.php" crc="503802655" ref="beta-testing-registration"/>
+    <file name="form_process.php" crc="260214869" ref="beta-testing-registration"/>
+    <file name="form-u833.php" crc="4187650195" ref="beta-testing-registration"/>
+    <file name="html5shiv.js" crc="4241844378" ref="beta-testing-registration"/>
+  </folder>
+  <folder name="images">
+    <file name="grow_header.jpg" crc="425800235" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="clipart2438175.png" crc="4214346531" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="blank.gif" crc="4208392903" ref="index"/>
+    <file name="twittericon-u250-fr.png" crc="420772617" ref="index"/>
+    <file name="aaa.jpg" crc="4004280916" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="ubi_icon.png" crc="444107817" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="dirt.png" crc="281702582" ref="beta-testing-registration">
+      <caption webpage="beta-testing-registration" alt=""/>
+    </file>
+    <file name="logo_navibar.png" crc="331502520" ref="beta-testing-registration">
+      <caption webpage="beta-testing-registration" alt=""/>
+    </file>
+    <file name="grow_dude_sign-u647-fr.png" crc="3758214621" ref="beta-testing-registration"/>
+  </folder>
+  <file name="index.html" crc="89314788" seo="true" mt="1612520750048" redirect="true"/>
+  <file name="beta-testing-registration.html" crc="425406627" seo="true" mt="1612521107870" redirect="true"/>
+</manifest>
