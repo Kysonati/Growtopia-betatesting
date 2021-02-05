@@ -1,10 +1,10 @@
-<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="growtopiabeta.ga" resolutions="1x" timestamp="1612547951433">
+<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="growtopiabeta.ga" resolutions="1x" timestamp="1612552328355">
   <folder name="css">
     <file name="site_global.css" crc="4233986782"/>
     <file name="master_a-master.css" crc="3794564162" ref="index:registration-finished:registration"/>
-    <file name="index.css" crc="3900568525" ref="index"/>
-    <file name="registration-finished.css" crc="4254423983" ref="registration-finished"/>
-    <file name="registration.css" crc="45545214" ref="registration"/>
+    <file name="index.css" crc="504840768" ref="index"/>
+    <file name="registration-finished.css" crc="461569547" ref="registration-finished"/>
+    <file name="registration.css" crc="157890310" ref="registration"/>
   </folder>
   <folder name="fonts">
     <file name="subset-centurygothic.woff" crc="393072551"/>
@@ -43,17 +43,18 @@
     <file name="aaa.jpg" crc="4004280916" ref="index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="ubi_icon.png" crc="444107817" ref="index">
+    <file name="ubi_icon.png" crc="444107817" ref="index:registration">
       <caption webpage="index" alt=""/>
+      <caption webpage="registration" alt=""/>
     </file>
     <file name="dirt.png" crc="281702582" ref="registration:registration-finished">
-      <caption webpage="registration-finished" alt=""/>
       <caption webpage="beta-testing-registration" alt=""/>
+      <caption webpage="registration-finished" alt=""/>
       <caption webpage="registration" alt=""/>
     </file>
     <file name="logo_navibar.png" crc="331502520" ref="registration:registration-finished">
-      <caption webpage="registration-finished" alt=""/>
       <caption webpage="beta-testing-registration" alt=""/>
+      <caption webpage="registration-finished" alt=""/>
       <caption webpage="registration" alt=""/>
     </file>
     <file name="grow_dude_sign-u647-fr.png" crc="3758214621" ref="registration:registration-finished"/>
@@ -64,8 +65,11 @@
     <file name="clipart2438175-u150.png" crc="3813348802" ref="index"/>
     <file name="registration-favicon.ico" crc="4166619206" ref="registration"/>
     <file name="registration-finished-favicon.ico" crc="4166619206" ref="registration-finished"/>
+    <file name="theyearoftheox.png" crc="135774559" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
   </folder>
-  <file name="index.html" crc="212619619" seo="true" mt="1612547822054" redirect="true"/>
-  <file name="registration.html" crc="261701676" seo="true" mt="1612547822055" redirect="true"/>
-  <file name="registration-finished.html" crc="4157080150" seo="true" mt="1612547932732" redirect="true"/>
+  <file name="index.html" crc="60745511" seo="true" mt="1612552314480" redirect="true"/>
+  <file name="registration.html" crc="3996100738" seo="true" mt="1612549084977" redirect="true"/>
+  <file name="registration-finished.html" crc="4114226449" seo="true" mt="1612549043443" redirect="true"/>
 </manifest>
