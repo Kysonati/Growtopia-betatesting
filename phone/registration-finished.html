@@ -19,8 +19,8 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
   <title>Registration finished</title>
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="../css/site_global.css?crc=4136709215"/>
-  <link rel="stylesheet" type="text/css" href="css/master_a-master.css?crc=4235909862"/>
-  <link rel="stylesheet" type="text/css" href="css/registration-finished.css?crc=251686319" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/master_a-master.css?crc=3912576900"/>
+  <link rel="stylesheet" type="text/css" href="css/registration-finished.css?crc=424180994" id="pagesheet"/>
     <!--/*
 
 */
@@ -31,11 +31,15 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
   <div class="clearfix borderbox" id="page"><!-- column -->
    <div class="verticalspacer" data-offset-top="0" data-content-above-spacer="430" data-content-below-spacer="139" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"></div>
    <div class="colelem" id="u4565"><!-- simple frame --></div>
-   <div class="ts-Default-Link-Style--copy-copy clearfix colelem" id="u4563-7" data-sizePolicy="fixed" data-pintopage="page_fluidx"><!-- content -->
-    <p>© 2021 <a class="nonblock" href="https://www.ubisoft.com/">Ubisoft</a>. All Rights Reserved.</p>
+   <div class="browser_width colelem" id="u4563-7-bw">
+    <div class="ts-Default-Link-Style--copy-copy clearfix" id="u4563-7"><!-- content -->
+     <p>© 2021 <a class="nonblock" href="https://www.ubisoft.com/">Ubisoft</a>. All Rights Reserved.</p>
+    </div>
    </div>
-   <div class="ts-Default-Link-Style--copy clearfix colelem" id="u4564-11" data-sizePolicy="fixed" data-pintopage="page_fluidx"><!-- content -->
-    <p><a class="nonblock" href="https://legal.ubi.com/en-INTL">Legal</a> | <a class="nonblock" href="https://legal.ubi.com/privacypolicy/en-INTL">Privacy Policy</a> | <a class="nonblock" href="https://legal.ubi.com/privacypolicy/en-INTL">Do not sell my Personal Information</a></p>
+   <div class="browser_width colelem" id="u4564-11-bw">
+    <div class="ts-Default-Link-Style--copy clearfix" id="u4564-11"><!-- content -->
+     <p><a class="nonblock" href="https://legal.ubi.com/en-INTL">Legal</a> | <a class="nonblock" href="https://legal.ubi.com/privacypolicy/en-INTL">Privacy Policy</a> | <a class="nonblock" href="https://legal.ubi.com/privacypolicy/en-INTL">Do not sell my Personal Information</a></p>
+    </div>
    </div>
   </div>
   <!-- Other scripts -->
@@ -53,6 +57,8 @@ var muse_init=function(){require.config({baseUrl:"../"});require(["jquery","muse
 window.Muse.assets.check($);/* body */
 Muse.Utils.transformMarkupToFixBrowserProblemsPreInit();/* body */
 Muse.Utils.prepHyperlinks(true);/* body */
+Muse.Utils.resizeHeight('.browser_width');/* resize height */
+Muse.Utils.requestAnimationFrame(function() { $('body').addClass('initialized'); });/* mark body as initialized */
 Muse.Utils.makeButtonsVisibleAfterSettingMinWidth();/* body */
 Muse.Utils.fullPage('#page');/* 100% height page */
 Muse.Utils.showWidgetsWhenReady();/* body */

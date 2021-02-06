@@ -1,14 +1,14 @@
-<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="growtopiabeta.ga" resolutions="1x" timestamp="1612609235527">
+<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="growtopiabeta.ga" resolutions="1x" timestamp="1612609427863">
   <folder name="phone">
     <folder name="css">
-      <file name="master_a-master.css" crc="4235909862" ref="phone>index:phone>registration:phone>registration-finished"/>
-      <file name="index.css" crc="202870590" ref="phone>index"/>
-      <file name="registration.css" crc="251686319" ref="phone>registration"/>
-      <file name="registration-finished.css" crc="251686319" ref="phone>registration-finished"/>
+      <file name="master_a-master.css" crc="3912576900" ref="phone>index:phone>registration:phone>registration-finished"/>
+      <file name="index.css" crc="530143529" ref="phone>index"/>
+      <file name="registration.css" crc="424180994" ref="phone>registration"/>
+      <file name="registration-finished.css" crc="424180994" ref="phone>registration-finished"/>
     </folder>
-    <file name="index.html" crc="4247519631" seo="true" mt="1612609197920" redirect="true"/>
-    <file name="registration.html" crc="402912874" seo="true" mt="1612607872791" redirect="true"/>
-    <file name="registration-finished.html" crc="4115038629" seo="true" mt="1612607872791" redirect="true"/>
+    <file name="index.html" crc="494441499" seo="true" mt="1612609418303" redirect="true"/>
+    <file name="registration.html" crc="260408853" seo="true" mt="1612609386343" redirect="true"/>
+    <file name="registration-finished.html" crc="3894443296" seo="true" mt="1612609386343" redirect="true"/>
   </folder>
   <folder name="css">
     <file name="site_global.css" crc="4136709215"/>
@@ -80,8 +80,8 @@
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
     </file>
-    <file name="clipart2438175-u3739-fr.png" crc="206910213" ref="phone>index"/>
-    <file name="theyearoftheox-u3838-fr.png" crc="418970951" ref="phone>index"/>
+    <file name="clipart2438175-u3739-fr.png" crc="4182140159" ref="phone>index"/>
+    <file name="theyearoftheox-u3838-fr.png" crc="304477981" ref="phone>index"/>
     <file name="aaa-u4169-fr.png" crc="4258711393" ref="phone>index"/>
   </folder>
   <file name="index.html" crc="4288623221" seo="true" mt="1612607724806" redirect="true"/>
