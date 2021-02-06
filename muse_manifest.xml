@@ -1,12 +1,12 @@
-<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="growtopiabeta.ga" resolutions="1x" timestamp="1612608581968">
+<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="growtopiabeta.ga" resolutions="1x" timestamp="1612609235527">
   <folder name="phone">
     <folder name="css">
       <file name="master_a-master.css" crc="4235909862" ref="phone>index:phone>registration:phone>registration-finished"/>
-      <file name="index.css" crc="451928299" ref="phone>index"/>
+      <file name="index.css" crc="202870590" ref="phone>index"/>
       <file name="registration.css" crc="251686319" ref="phone>registration"/>
       <file name="registration-finished.css" crc="251686319" ref="phone>registration-finished"/>
     </folder>
-    <file name="index.html" crc="3884842682" seo="true" mt="1612608575534" redirect="true"/>
+    <file name="index.html" crc="4247519631" seo="true" mt="1612609197920" redirect="true"/>
     <file name="registration.html" crc="402912874" seo="true" mt="1612607872791" redirect="true"/>
     <file name="registration-finished.html" crc="4115038629" seo="true" mt="1612607872791" redirect="true"/>
   </folder>
@@ -80,9 +80,9 @@
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
     </file>
-    <file name="clipart2438175-u3739-fr.png" crc="4158001253" ref="phone>index"/>
-    <file name="theyearoftheox-u3838-fr.png" crc="493185811" ref="phone>index"/>
-    <file name="aaa-u4169-fr.png" crc="4061750750" ref="phone>index"/>
+    <file name="clipart2438175-u3739-fr.png" crc="206910213" ref="phone>index"/>
+    <file name="theyearoftheox-u3838-fr.png" crc="418970951" ref="phone>index"/>
+    <file name="aaa-u4169-fr.png" crc="4258711393" ref="phone>index"/>
   </folder>
   <file name="index.html" crc="4288623221" seo="true" mt="1612607724806" redirect="true"/>
   <file name="registration.html" crc="222732865" seo="true" mt="1612604613903" redirect="true"/>
