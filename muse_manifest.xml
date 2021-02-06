@@ -1,14 +1,14 @@
-<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="growtopiabeta.ga" resolutions="1x" timestamp="1612612054909">
+<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="growtopiabeta.ga" resolutions="1x" timestamp="1612612250530">
   <folder name="phone">
     <folder name="css">
       <file name="master_a-master.css" crc="3912576900" ref="phone>index:phone>registration:phone>registration-finished"/>
-      <file name="index.css" crc="4014195681" ref="phone>index"/>
-      <file name="registration.css" crc="3993956284" ref="phone>registration"/>
-      <file name="registration-finished.css" crc="424180994" ref="phone>registration-finished"/>
+      <file name="index.css" crc="271423953" ref="phone>index"/>
+      <file name="registration.css" crc="4129831017" ref="phone>registration"/>
+      <file name="registration-finished.css" crc="513648285" ref="phone>registration-finished"/>
     </folder>
-    <file name="index.html" crc="427362228" seo="true" mt="1612612046784" redirect="true"/>
-    <file name="registration.html" crc="70685315" seo="true" mt="1612611780593" redirect="true"/>
-    <file name="registration-finished.html" crc="3894443296" seo="true" mt="1612609386343" redirect="true"/>
+    <file name="index.html" crc="4265725660" seo="true" mt="1612612238306" redirect="true"/>
+    <file name="registration.html" crc="417500046" seo="true" mt="1612612238306" redirect="true"/>
+    <file name="registration-finished.html" crc="195484905" seo="true" mt="1612612238306" redirect="true"/>
   </folder>
   <folder name="css">
     <file name="site_global.css" crc="4136709215"/>
@@ -59,10 +59,9 @@
       <caption webpage="registration" alt=""/>
     </file>
     <file name="dirt.png" crc="281702582" ref="registration:registration-finished:phone>registration">
-      <caption webpage="registration-finished" alt=""/>
       <caption webpage="beta-testing-registration" alt=""/>
       <caption webpage="registration" alt=""/>
-      <caption webpage="registration" alt=""/>
+      <caption webpage="registration-finished" alt=""/>
     </file>
     <file name="logo_navibar.png" crc="331502520" ref="registration:registration-finished">
       <caption webpage="registration-finished" alt=""/>
