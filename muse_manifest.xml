@@ -1,12 +1,12 @@
-<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="growtopiabeta.ga" resolutions="1x" timestamp="1612607922019">
+<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="growtopiabeta.ga" resolutions="1x" timestamp="1612608581968">
   <folder name="phone">
     <folder name="css">
       <file name="master_a-master.css" crc="4235909862" ref="phone>index:phone>registration:phone>registration-finished"/>
-      <file name="index.css" crc="4111931782" ref="phone>index"/>
+      <file name="index.css" crc="451928299" ref="phone>index"/>
       <file name="registration.css" crc="251686319" ref="phone>registration"/>
       <file name="registration-finished.css" crc="251686319" ref="phone>registration-finished"/>
     </folder>
-    <file name="index.html" crc="3841688077" seo="true" mt="1612607872791" redirect="true"/>
+    <file name="index.html" crc="3884842682" seo="true" mt="1612608575534" redirect="true"/>
     <file name="registration.html" crc="402912874" seo="true" mt="1612607872791" redirect="true"/>
     <file name="registration-finished.html" crc="4115038629" seo="true" mt="1612607872791" redirect="true"/>
   </folder>
@@ -51,7 +51,7 @@
     </file>
     <file name="blank.gif" crc="4208392903" ref="index:phone>index"/>
     <file name="twittericon-u250-fr.png" crc="420772617" ref="index"/>
-    <file name="aaa.jpg" crc="49055513" ref="index:phone>index">
+    <file name="aaa.jpg" crc="49055513" ref="index">
       <caption webpage="index" alt=""/>
     </file>
     <file name="ubi_icon.png" crc="444107817" ref="index:phone>index">
@@ -76,11 +76,13 @@
     <file name="clipart2438175-u150.png" crc="436843551" ref="index"/>
     <file name="registration-favicon.ico" crc="424362411" ref="phone>registration"/>
     <file name="registration-finished-favicon.ico" crc="424362411" ref="phone>registration-finished"/>
-    <file name="theyearoftheox.png" crc="135774559" ref="index:phone>index">
+    <file name="theyearoftheox.png" crc="135774559" ref="index">
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
     </file>
-    <file name="clipart2438175-u3739-fr.png" crc="4049303366" ref="phone>index"/>
+    <file name="clipart2438175-u3739-fr.png" crc="4158001253" ref="phone>index"/>
+    <file name="theyearoftheox-u3838-fr.png" crc="493185811" ref="phone>index"/>
+    <file name="aaa-u4169-fr.png" crc="4061750750" ref="phone>index"/>
   </folder>
   <file name="index.html" crc="4288623221" seo="true" mt="1612607724806" redirect="true"/>
   <file name="registration.html" crc="222732865" seo="true" mt="1612604613903" redirect="true"/>
