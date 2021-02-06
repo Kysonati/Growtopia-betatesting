@@ -1,21 +1,21 @@
-<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="growtopiabeta.ga" resolutions="1x" timestamp="1612612576285">
+<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="growtopiabeta.ga" resolutions="1x" timestamp="1612630658567">
   <folder name="phone">
     <folder name="css">
       <file name="master_a-master.css" crc="3912576900" ref="phone>index:phone>registration:phone>registration-finished"/>
-      <file name="index.css" crc="271423953" ref="phone>index"/>
+      <file name="index.css" crc="3960470952" ref="phone>index"/>
       <file name="registration.css" crc="4129831017" ref="phone>registration"/>
       <file name="registration-finished.css" crc="316188139" ref="phone>registration-finished"/>
     </folder>
-    <file name="index.html" crc="4265725660" seo="true" mt="1612612417413" redirect="true"/>
-    <file name="registration.html" crc="417500046" seo="true" mt="1612612417413" redirect="true"/>
-    <file name="registration-finished.html" crc="4172100420" seo="true" mt="1612612547704" redirect="true"/>
+    <file name="index.html" crc="4277580439" seo="true" mt="1612630639495" redirect="true"/>
+    <file name="registration.html" crc="152539633" seo="true" mt="1612625527651" redirect="true"/>
+    <file name="registration-finished.html" crc="4017025654" seo="true" mt="1612625544026" redirect="true"/>
   </folder>
   <folder name="css">
     <file name="site_global.css" crc="4136709215"/>
-    <file name="master_a-master.css" crc="3794564162" ref="index:registration-finished:registration"/>
-    <file name="index.css" crc="3778782410" ref="index"/>
-    <file name="registration-finished.css" crc="4007756835" ref="registration-finished"/>
-    <file name="registration.css" crc="380721705" ref="registration"/>
+    <file name="master_a-master.css" crc="3794564162" ref="index:growtopia--beta-registration:growtopia--beta-registration-finished"/>
+    <file name="index.css" crc="3897762412" ref="index"/>
+    <file name="growtopia--beta-registration.css" crc="28852623" ref="growtopia--beta-registration"/>
+    <file name="growtopia--beta-registration-finished.css" crc="4007756835" ref="growtopia--beta-registration-finished"/>
   </folder>
   <folder name="fonts">
     <file name="subset-centurygothic.woff" crc="393072551"/>
@@ -35,15 +35,15 @@
     <file name="subset-centurygothic-italic.svg" crc="4137345750"/>
   </folder>
   <folder name="scripts">
-    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:registration:registration-finished:phone>index:phone>registration:phone>registration-finished"/>
-    <file name="museutils.js" crc="3939489907" ref="index:registration:registration-finished:phone>index:phone>registration:phone>registration-finished"/>
-    <file name="whatinput.js" crc="86476730" ref="index:registration:registration-finished:phone>index:phone>registration:phone>registration-finished"/>
-    <file name="museconfig.js" crc="3936894949" ref="index:registration:registration-finished:phone>index:phone>registration:phone>registration-finished"/>
-    <file name="jquery.musepolyfill.bgsize.js" crc="85124417" ref="index:registration:registration-finished:phone>index:phone>registration:phone>registration-finished"/>
-    <file name="jquery.watch.js" crc="522499760" ref="index:registration:registration-finished:phone>index:phone>registration:phone>registration-finished"/>
-    <file name="require.js" crc="4177726516" ref="index:registration:registration-finished:phone>index:phone>registration:phone>registration-finished"/>
-    <file name="jquery.musemenu.js" crc="4139692962" ref="registration:registration-finished"/>
-    <file name="html5shiv.js" crc="4241844378" ref="registration:registration-finished"/>
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:phone>index:phone>registration:phone>registration-finished:growtopia--beta-registration-finished:growtopia--beta-registration"/>
+    <file name="museutils.js" crc="3939489907" ref="index:phone>index:phone>registration:phone>registration-finished:growtopia--beta-registration-finished:growtopia--beta-registration"/>
+    <file name="whatinput.js" crc="86476730" ref="index:phone>index:phone>registration:phone>registration-finished:growtopia--beta-registration-finished:growtopia--beta-registration"/>
+    <file name="museconfig.js" crc="3936894949" ref="index:phone>index:phone>registration:phone>registration-finished:growtopia--beta-registration-finished:growtopia--beta-registration"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="85124417" ref="index:phone>index:phone>registration:phone>registration-finished:growtopia--beta-registration-finished:growtopia--beta-registration"/>
+    <file name="jquery.watch.js" crc="522499760" ref="index:phone>index:phone>registration:phone>registration-finished:growtopia--beta-registration-finished:growtopia--beta-registration"/>
+    <file name="require.js" crc="4177726516" ref="index:phone>index:phone>registration:phone>registration-finished:growtopia--beta-registration-finished:growtopia--beta-registration"/>
+    <file name="jquery.musemenu.js" crc="4139692962" ref="growtopia--beta-registration-finished:growtopia--beta-registration"/>
+    <file name="html5shiv.js" crc="4241844378" ref="growtopia--beta-registration-finished:growtopia--beta-registration"/>
   </folder>
   <folder name="images">
     <file name="grow_header.jpg" crc="425800235" ref="index:phone>index">
@@ -54,23 +54,23 @@
     <file name="aaa.jpg" crc="49055513" ref="index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="ubi_icon.png" crc="444107817" ref="index:phone>index:registration-finished">
+    <file name="ubi_icon.png" crc="444107817" ref="index:phone>index">
       <caption webpage="index" alt=""/>
       <caption webpage="registration" alt=""/>
     </file>
-    <file name="dirt.png" crc="281702582" ref="registration:registration-finished:phone>registration:phone>registration-finished">
-      <caption webpage="registration-finished" alt=""/>
-      <caption webpage="registration-finished" alt=""/>
-      <caption webpage="beta-testing-registration" alt=""/>
-      <caption webpage="registration" alt=""/>
-    </file>
-    <file name="logo_navibar.png" crc="331502520" ref="registration:registration-finished">
-      <caption webpage="registration" alt=""/>
+    <file name="dirt.png" crc="281702582" ref="phone>registration:phone>registration-finished:growtopia--beta-registration-finished:growtopia--beta-registration">
       <caption webpage="beta-testing-registration" alt=""/>
       <caption webpage="registration-finished" alt=""/>
+      <caption webpage="growtopia--beta-registration" alt=""/>
+      <caption webpage="registration" alt=""/>
+      <caption webpage="growtopia--beta-registration-finished" alt=""/>
     </file>
-    <file name="prusaitis.gif" crc="691575" ref="index:phone>index">
-      <caption webpage="index" alt=""/>
+    <file name="logo_navibar.png" crc="331502520" ref="growtopia--beta-registration-finished:growtopia--beta-registration">
+      <caption webpage="beta-testing-registration" alt=""/>
+      <caption webpage="registration-finished" alt=""/>
+      <caption webpage="growtopia--beta-registration" alt=""/>
+      <caption webpage="registration" alt=""/>
+      <caption webpage="growtopia--beta-registration-finished" alt=""/>
     </file>
     <file name="home-favicon.ico" crc="424362411" ref="phone>index"/>
     <file name="clipart2438175-u150.png" crc="436843551" ref="index"/>
@@ -84,10 +84,13 @@
     <file name="aaa-u4169-fr.png" crc="4258711393" ref="phone>index"/>
     <file name="grow_dude_sign-u6073-fr.png" crc="3774222151" ref="phone>registration:phone>registration-finished"/>
     <file name="logo_navibar-u6105-fr.png" crc="529981767" ref="phone>registration:phone>registration-finished"/>
-    <file name="grow_dude_sign-u5676-fr.png" crc="3758214621" ref="registration"/>
-    <file name="grow_dude_sign-u3173-fr.png" crc="3758214621" ref="registration-finished"/>
+    <file name="grow_dude_sign-u3173-fr.png" crc="3758214621" ref="growtopia--beta-registration-finished:growtopia--beta-registration"/>
+    <file name="grow_header-u4504-fr.jpg" crc="353819816" ref="phone>index"/>
+    <file name="growtopia--official-website-favicon.ico" crc="4166619206" ref="index"/>
+    <file name="growtopia--beta-registration-finished-favicon.ico" crc="4166619206" ref="growtopia--beta-registration-finished"/>
+    <file name="growtopia--beta-registration-favicon.ico" crc="4166619206" ref="growtopia--beta-registration"/>
   </folder>
-  <file name="index.html" crc="4288623221" seo="true" mt="1612611174156" redirect="true"/>
-  <file name="registration.html" crc="423537791" seo="true" mt="1612611165042" redirect="true"/>
-  <file name="registration-finished.html" crc="37853725" seo="true" mt="1612612557314" redirect="true"/>
+  <file name="index.html" crc="4287724717" seo="true" mt="1612630651592" redirect="true"/>
+  <file name="growtopia--beta-registration-finished.html" crc="202875708" seo="true" mt="1612625544028" redirect="true"/>
+  <file name="growtopia--beta-registration.html" crc="476606987" seo="true" mt="1612625527653" redirect="true"/>
 </manifest>
