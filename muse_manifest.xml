@@ -1,4 +1,4 @@
-<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="growtopiabeta.ga" resolutions="1x" timestamp="1612630658567">
+<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="growtopiabeta.ga" resolutions="1x" timestamp="1612630842944">
   <folder name="phone">
     <folder name="css">
       <file name="master_a-master.css" crc="3912576900" ref="phone>index:phone>registration:phone>registration-finished"/>
@@ -6,7 +6,7 @@
       <file name="registration.css" crc="4129831017" ref="phone>registration"/>
       <file name="registration-finished.css" crc="316188139" ref="phone>registration-finished"/>
     </folder>
-    <file name="index.html" crc="4277580439" seo="true" mt="1612630639495" redirect="true"/>
+    <file name="index.html" crc="502758134" seo="true" mt="1612630837533" redirect="true"/>
     <file name="registration.html" crc="152539633" seo="true" mt="1612625527651" redirect="true"/>
     <file name="registration-finished.html" crc="4017025654" seo="true" mt="1612625544026" redirect="true"/>
   </folder>
@@ -90,7 +90,7 @@
     <file name="growtopia--beta-registration-finished-favicon.ico" crc="4166619206" ref="growtopia--beta-registration-finished"/>
     <file name="growtopia--beta-registration-favicon.ico" crc="4166619206" ref="growtopia--beta-registration"/>
   </folder>
-  <file name="index.html" crc="4287724717" seo="true" mt="1612630651592" redirect="true"/>
+  <file name="index.html" crc="4065204938" seo="true" mt="1612630807945" redirect="true"/>
   <file name="growtopia--beta-registration-finished.html" crc="202875708" seo="true" mt="1612625544028" redirect="true"/>
   <file name="growtopia--beta-registration.html" crc="476606987" seo="true" mt="1612625527653" redirect="true"/>
 </manifest>
