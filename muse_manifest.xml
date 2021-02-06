@@ -1,12 +1,12 @@
-<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="growtopiabeta.ga" resolutions="1x" timestamp="1612609614488">
+<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="growtopiabeta.ga" resolutions="1x" timestamp="1612609841947">
   <folder name="phone">
     <folder name="css">
       <file name="master_a-master.css" crc="3912576900" ref="phone>index:phone>registration:phone>registration-finished"/>
-      <file name="index.css" crc="170852763" ref="phone>index"/>
+      <file name="index.css" crc="4003002593" ref="phone>index"/>
       <file name="registration.css" crc="424180994" ref="phone>registration"/>
       <file name="registration-finished.css" crc="424180994" ref="phone>registration-finished"/>
     </folder>
-    <file name="index.html" crc="4259762187" seo="true" mt="1612609610365" redirect="true"/>
+    <file name="index.html" crc="329138630" seo="true" mt="1612609829334" redirect="true"/>
     <file name="registration.html" crc="260408853" seo="true" mt="1612609386343" redirect="true"/>
     <file name="registration-finished.html" crc="3894443296" seo="true" mt="1612609386343" redirect="true"/>
   </folder>
