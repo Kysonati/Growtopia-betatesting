@@ -1,4 +1,4 @@
-<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="growtopiabeta.ga" resolutions="1x" timestamp="1612630842944">
+<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="growtopiabeta.ga" resolutions="1x" timestamp="1612631670968">
   <folder name="phone">
     <folder name="css">
       <file name="master_a-master.css" crc="3912576900" ref="phone>index:phone>registration:phone>registration-finished"/>
@@ -54,9 +54,10 @@
     <file name="aaa.jpg" crc="49055513" ref="index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="ubi_icon.png" crc="444107817" ref="index:phone>index">
+    <file name="ubi_icon.png" crc="444107817" ref="index:phone>index:growtopia--beta-registration-finished">
       <caption webpage="index" alt=""/>
       <caption webpage="registration" alt=""/>
+      <caption webpage="growtopia--beta-registration-finished" alt=""/>
     </file>
     <file name="dirt.png" crc="281702582" ref="phone>registration:phone>registration-finished:growtopia--beta-registration-finished:growtopia--beta-registration">
       <caption webpage="beta-testing-registration" alt=""/>
@@ -91,6 +92,6 @@
     <file name="growtopia--beta-registration-favicon.ico" crc="4166619206" ref="growtopia--beta-registration"/>
   </folder>
   <file name="index.html" crc="4065204938" seo="true" mt="1612630807945" redirect="true"/>
-  <file name="growtopia--beta-registration-finished.html" crc="202875708" seo="true" mt="1612625544028" redirect="true"/>
-  <file name="growtopia--beta-registration.html" crc="476606987" seo="true" mt="1612625527653" redirect="true"/>
+  <file name="growtopia--beta-registration-finished.html" crc="3828015212" seo="true" mt="1612631644637" redirect="true"/>
+  <file name="growtopia--beta-registration.html" crc="236942189" seo="true" mt="1612631640301" redirect="true"/>
 </manifest>
