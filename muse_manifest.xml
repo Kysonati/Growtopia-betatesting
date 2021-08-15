@@ -1,4 +1,4 @@
-<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="growtopiabeta.ga" resolutions="1x" timestamp="1612631670968">
+<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="growtopiabeta.ga" resolutions="1x" timestamp="1629018992707">
   <folder name="phone">
     <folder name="css">
       <file name="master_a-master.css" crc="3912576900" ref="phone>index:phone>registration:phone>registration-finished"/>
@@ -11,11 +11,11 @@
     <file name="registration-finished.html" crc="4017025654" seo="true" mt="1612625544026" redirect="true"/>
   </folder>
   <folder name="css">
-    <file name="site_global.css" crc="4136709215"/>
-    <file name="master_a-master.css" crc="3794564162" ref="index:growtopia--beta-registration:growtopia--beta-registration-finished"/>
-    <file name="index.css" crc="3897762412" ref="index"/>
-    <file name="growtopia--beta-registration.css" crc="28852623" ref="growtopia--beta-registration"/>
-    <file name="growtopia--beta-registration-finished.css" crc="4007756835" ref="growtopia--beta-registration-finished"/>
+    <file name="site_global.css" crc="4182457672"/>
+    <file name="master_a-master.css" crc="97787803" ref="index:growtopia--beta-registration:growtopia--beta-registration-finished"/>
+    <file name="index.css" crc="4090540847" ref="index"/>
+    <file name="growtopia--beta-registration.css" crc="3977425641" ref="growtopia--beta-registration"/>
+    <file name="growtopia--beta-registration-finished.css" crc="3844443982" ref="growtopia--beta-registration-finished"/>
   </folder>
   <folder name="fonts">
     <file name="subset-centurygothic.woff" crc="393072551"/>
@@ -33,6 +33,9 @@
     <file name="subset-centurygothic-italic.woff" crc="246281592"/>
     <file name="subset-centurygothic-italic.eot" crc="260873543"/>
     <file name="subset-centurygothic-italic.svg" crc="4137345750"/>
+    <file name="subset-productsans-regular.woff" crc="3773962203"/>
+    <file name="subset-productsans-regular.eot" crc="4115120744"/>
+    <file name="subset-productsans-regular.svg" crc="15122941"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:phone>index:phone>registration:phone>registration-finished:growtopia--beta-registration-finished:growtopia--beta-registration"/>
@@ -54,32 +57,29 @@
     <file name="aaa.jpg" crc="49055513" ref="index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="ubi_icon.png" crc="444107817" ref="index:phone>index:growtopia--beta-registration-finished">
+    <file name="ubi_icon.png" crc="444107817" ref="index:phone>index">
       <caption webpage="index" alt=""/>
       <caption webpage="registration" alt=""/>
       <caption webpage="growtopia--beta-registration-finished" alt=""/>
     </file>
     <file name="dirt.png" crc="281702582" ref="phone>registration:phone>registration-finished:growtopia--beta-registration-finished:growtopia--beta-registration">
-      <caption webpage="beta-testing-registration" alt=""/>
-      <caption webpage="registration-finished" alt=""/>
       <caption webpage="growtopia--beta-registration" alt=""/>
-      <caption webpage="registration" alt=""/>
+      <caption webpage="beta-testing-registration" alt=""/>
       <caption webpage="growtopia--beta-registration-finished" alt=""/>
+      <caption webpage="registration" alt=""/>
+      <caption webpage="registration-finished" alt=""/>
     </file>
     <file name="logo_navibar.png" crc="331502520" ref="growtopia--beta-registration-finished:growtopia--beta-registration">
-      <caption webpage="beta-testing-registration" alt=""/>
-      <caption webpage="registration-finished" alt=""/>
       <caption webpage="growtopia--beta-registration" alt=""/>
-      <caption webpage="registration" alt=""/>
+      <caption webpage="beta-testing-registration" alt=""/>
       <caption webpage="growtopia--beta-registration-finished" alt=""/>
+      <caption webpage="registration" alt=""/>
+      <caption webpage="registration-finished" alt=""/>
     </file>
     <file name="home-favicon.ico" crc="424362411" ref="phone>index"/>
-    <file name="clipart2438175-u150.png" crc="436843551" ref="index"/>
+    <file name="clipart2438175-u150.png" crc="4212906632" ref="index"/>
     <file name="registration-favicon.ico" crc="424362411" ref="phone>registration"/>
     <file name="registration-finished-favicon.ico" crc="424362411" ref="phone>registration-finished"/>
-    <file name="theyearoftheox.png" crc="135774559" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
     <file name="clipart2438175-u3739-fr.png" crc="206910213" ref="phone>index"/>
     <file name="theyearoftheox-u3838-fr.png" crc="418970951" ref="phone>index"/>
     <file name="aaa-u4169-fr.png" crc="4258711393" ref="phone>index"/>
@@ -90,8 +90,14 @@
     <file name="growtopia--official-website-favicon.ico" crc="4166619206" ref="index"/>
     <file name="growtopia--beta-registration-finished-favicon.ico" crc="4166619206" ref="growtopia--beta-registration-finished"/>
     <file name="growtopia--beta-registration-favicon.ico" crc="4166619206" ref="growtopia--beta-registration"/>
+    <file name="frostycurse.png" crc="3949634148" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="grow_bg3.png" crc="3816612983" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
   </folder>
-  <file name="index.html" crc="4065204938" seo="true" mt="1612630807945" redirect="true"/>
-  <file name="growtopia--beta-registration-finished.html" crc="3828015212" seo="true" mt="1612631644637" redirect="true"/>
-  <file name="growtopia--beta-registration.html" crc="236942189" seo="true" mt="1612631640301" redirect="true"/>
+  <file name="index.html" crc="4199485814" seo="true" mt="1629018980218" redirect="true"/>
+  <file name="growtopia--beta-registration-finished.html" crc="4020777151" seo="true" mt="1629018980218" redirect="true"/>
+  <file name="growtopia--beta-registration.html" crc="3929122393" seo="true" mt="1629018980218" redirect="true"/>
 </manifest>
